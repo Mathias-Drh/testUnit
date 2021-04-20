@@ -37,7 +37,8 @@ public class JUnitTest {
 	@AfterEach
 	public void tearDown() {
 	}
-
+	
+	// Tester que l’attaque d’une créature diminue bien la vie de la créature adverse.
 	@Test
 	public void doDamage() {
 		Monster monster1 = new Licorne();
